@@ -7,6 +7,7 @@ members = [
     "digital-signature/core",
     "ecdsa",
     "factors",
+    "ipfs",
     "json",
     "json/core",
     "password-checker",

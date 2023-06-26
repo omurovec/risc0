@@ -1,0 +1,9 @@
+[package]
+name = "ipfs-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cid = "0.10.1"
+risc0-zkvm = { path = "../../../risc0/zkvm", default-features = false }
+serde = "1.0"

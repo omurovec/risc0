@@ -1,0 +1,12 @@
+[package]
+name = "search_json_ipfs"
+version = "0.12.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+json = "0.12"
+cid = "0.7.0"
+ipfs-core = { path = "../../core" }
+risc0-zkvm = { path = "../../../../risc0/zkvm", default-features = false, features = [ "std" ] }
